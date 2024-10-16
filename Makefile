@@ -9,7 +9,8 @@ CXXFLAGS = -Wall -g -std=c++17
 # Source file
 # SRC = src/38_count_and_say.cpp
 # SRC = src/bits_manipulation.cpp
-SRC = src/minstack.cpp
+# SRC = src/minstack.cpp
+SRC = src/minstack.c
 
 # Output executable name
 OUT = leetcode.out
