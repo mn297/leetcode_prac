@@ -10,5 +10,8 @@ fi
 # Set the source file as the argument
 SRC="$1"
 
-# Run make with the provided source file and then execute the output
+# Update the timestamp of the source file to force make to recompile
+touch "$SRC"
+
+# Run make and then execute the output
 make SRC="$SRC" && ./leetcode.out
