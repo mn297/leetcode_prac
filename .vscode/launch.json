@@ -1,0 +1,30 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug LIS Program",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/leetcode.out",
+            "args": [],
+            // "stopAtEntry": true,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            // "externalConsole": true,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "build leetcode.out",
+            "miDebuggerPath": "/usr/bin/gdb",
+            "internalConsoleOptions": "openOnSessionStart",
+            "logging": {
+                "engineLogging": true
+            }
+        }
+    ]
+}
