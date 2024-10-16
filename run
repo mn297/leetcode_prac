@@ -1,4 +1,5 @@
 #!/bin/bash
+# Usage ./run src/minstack.c
 
 # Check if the source file is passed as an argument
 if [ $# -lt 1 ]; then
