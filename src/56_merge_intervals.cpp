@@ -41,13 +41,12 @@ int main()
     Solution solution;
     vector<vector<int>> intervals = {{1, 3}, {2, 6}, {8, 10}, {15, 18}};
     vector<vector<int>> merged = solution.merge(intervals);
-    
+
     for (const auto &interval : intervals)
     {
         cout << "[" << interval[0] << ", " << interval[1] << "] ";
     }
     cout << endl;
-
 
     for (const auto &interval : merged)
     {
