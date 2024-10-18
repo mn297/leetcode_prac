@@ -6,6 +6,9 @@ CXX = g++
 # Compiler flags
 CXXFLAGS = -Wall -g -std=c++17
 
+# LDFLAGS = -lGLEW -lGL -lGLU -lglfw -lsfml-graphics -lsfml-window -lsfml-system -lm -pthread
+LDFLAGS = -lGLEW -lGL -lGLU -lglfw -lm -pthread
+
 # Source file
 # SRC = src/38_count_and_say.cpp
 # SRC = src/bits_manipulation.cpp
